@@ -29,6 +29,9 @@ button {
     grid-area: 1 / 1 / 2 / 5;
     border: 1px white solid;
     border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .orng-btn {
@@ -68,4 +71,11 @@ button {
 .btn-hvr:hover {
     background-color: rgb(179, 179, 179);
     transition: all 0.2s;
+}
+
+p {
+    color: white;
+    font-size: 32pt;
+    font-family: 'DM Sans', sans-serif;
+    padding-right: 25px;
 }
