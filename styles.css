@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap');
+
+body {
+    background: black;
+}
+
+.calc-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(6, 100px);
+    gap: 10px;
+}
+
+button {
+    color: white;
+    background: none;
+    padding: 35px;
+    border: none;
+    border-radius: auto;
+    font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.blk-txt {
+    color: black;
+}
+
+.numScreen {
+    grid-area: 1 / 1 / 2 / 5;
+    border: 1px white solid;
+    border-radius: 25px;
+}
+
+.orng-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: orange;
+}
+
+.darkgray-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgb(66, 66, 66);
+
+}
+
+.gray-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: darkgray;
+}
+
+.long-btn {
+    grid-area: 6 / 1 / 7 / 3;
+}
+
+.ylw-btn-hvr:hover {
+    background-color: rgb(255, 203, 107);
+    transition: all 0.2s;
+}
+
+.btn-hvr:hover {
+    background-color: rgb(179, 179, 179);
+    transition: all 0.2s;
+}
