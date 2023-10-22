@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap');
 
+/* CSS for Body Element */
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     background: linear-gradient(to right, #F78770, #FF607B);
 }
 
+/* CSS for Calculator Container */
 .calc-container {
     display: grid;
     grid-template-columns: repeat(4, 10vmin);
@@ -21,6 +23,7 @@ body {
     border-radius: 20px;
 }
 
+/* CSS for Output */
 .output {
     grid-column: 1 / -1;
     background-color: rgba(107, 107, 107, 0.75);
@@ -34,6 +37,7 @@ body {
     word-break: break-all;
 }
 
+/* CSS for Previous Operand inside Output */
 .output .previous-operation {
     font-family: 'DM Sans';
     font-style: normal;
@@ -42,18 +46,21 @@ body {
     font-size: 1.5vw;
 }
 
+/* CSS for Current Operand inside Output */
 .output .current-operation {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 600;
     color: white;
-    font-size: 2vw;
+    font-size: 1.6vw;
 }
 
+/* CSS for Elements that span two columns within Container grid */
 .span-two {
     grid-column: span 2;
 }
 
+/* CSS for each Button */
 button {
     font-family: 'DM Sans';
     font-style: normal;
@@ -64,12 +71,14 @@ button {
     border-radius: 5px;
 }
 
+/* CSS for each Button hover */
 button:hover {
     background: rgb(65, 65, 65);
     color: white;
     transition: all 0.15s;
 }
 
+/* CSS for Equals button */
 .equals {
     background: rgb(84, 84, 255);
 }
@@ -78,6 +87,7 @@ button:hover {
     background: rgb(70, 70, 255);
 }
 
+/* CSS for Operation buttons */
 .operation {
     background: rgb(134, 255, 130);
 }
@@ -86,6 +96,7 @@ button:hover {
     background: rgb(85, 255, 79);
 }
 
+/* CSS for All Clear button */
 .all-clear {
     background: rgb(255, 93, 93);
 }
@@ -94,6 +105,7 @@ button:hover {
     background: rgb(255, 29, 29);
 }
 
+/* CSS for Delete button */
 .del {
     background: rgb(255, 198, 92);
 }
