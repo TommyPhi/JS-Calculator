@@ -1,9 +1,9 @@
 # JS-Calculator
 
-##Overview
+## Overview
 This calculator functions mainly in JavaScript with layout and style using HTML and CSS. Can do most basic calculator functions.
 
-##Functionality
+## Functionality
 **All Clear** button calls clear function and clears output.
 
 **Delete** button calls delete function and removes right most character.
