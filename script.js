@@ -21,8 +21,7 @@ class Calculator {
 
     //Choose operation function, chooses the operation based on user input. Sets the operation variable to input and sets current operand to the previous and clears the current operand.
     chooseOperation(operation) {
-        if(this.currentOperand.toLowerCase().includes('error')) return;
-        if (this.currentOperand === '') return;
+        if (this.currentOperand === '' || this.currentOperand.toString().toLowerCase().includes('error')) return;
         if (this.previousOperand !== '') {
             this.compute();
         }
